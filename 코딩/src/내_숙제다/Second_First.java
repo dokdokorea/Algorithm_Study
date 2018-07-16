@@ -8,7 +8,7 @@ class AutomaticSumming {
 	int N; // 입력 정수의 갯수
 	int K; // 원하는 값
 	/* N개의 정수들과 K값을 입력받는다. 정수들은 정렬된 상태로 입력된다. */
-	int start = 0, end = N - 1;
+	// int start = 0, end = N - 1;
 	int count = 0; // 정수 쌍의 개수 카운트
 	int sum;
 
@@ -24,15 +24,14 @@ class AutomaticSumming {
 		System.out.println("원하는 합을 입력하세요.: ");
 		K = input.nextInt();
 
-		if (start < end) {
-			recursiveFunc(start, end);
-		}
+		recursiveFunc(0, N - 1);
+
 		System.out.println("총 합이 이루어지는 수의 쌍은 " + count + "개 입니다.");
 	}
 
 	private void recursiveFunc(int start, int end) {
-		sum = data.get(start)+data.get(end);
-
+		sum = data.get(start) + data.get(end);
+if(start<end) {
 		if (sum > K) {
 			recursiveFunc(start, end - 1);
 			System.out.println("난 바보다.");
@@ -42,6 +41,7 @@ class AutomaticSumming {
 			count++;
 			recursiveFunc(start + 1, end - 1);
 		}
+	}
 	}
 }
 
