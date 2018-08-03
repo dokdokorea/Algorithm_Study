@@ -73,6 +73,8 @@ System.out.println();
 //		System.out.print(randomQuick3SortOneMillion());
 //		System.out.print(reverseQuick3SortOneMillion());
 
+		
+		
 	}
 
 	private String randomBubbleSortThousand() {
@@ -610,7 +612,8 @@ System.out.println();
 
 	private int partition3(int[] array, int start, int end) {
 		Random rand = new Random();
-		int randomIndex = rand.nextInt(end);
+		int randomIndex = rand.nextInt((end+1)-start);
+		randomIndex+=start;
 		int pivotPointer = end;
 		int i = -1;
 		int j = 0;
