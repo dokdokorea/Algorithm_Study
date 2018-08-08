@@ -1,5 +1,6 @@
 package ³»_¼÷Á¦´Ù;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 class bubbleBubble {
@@ -8,73 +9,98 @@ class bubbleBubble {
 	private static int ONEMILLIONNUM = 1000000;
 	private int[] numberArr = { THOUSANDNUM, TENTHOUSANDNUM, ONEMILLIONNUM };
 	Random rd;
+	int cnt = 0;
+	ArrayList<Integer> arrList = new ArrayList<Integer>();
 
 	public bubbleBubble() {
 		System.out.println(
 				"       Random1000       Reverse1000       Random10000       Reverse10000       Random100000       Reverse100000");
 		System.out.println();
-		System.out.print("Bubble");
+		// System.out.print("Bubble");
+		//
+		// System.out.print(randomBubbleSortThousand());
+		// System.out.print(reverseBubbleSortThousand());
+		// System.out.print(randomBubbleSortTenThousand());
+		// System.out.print(reverseBubbleSortTenThousand());
+		//// System.out.print(randomBubbleSortOneMillion());
+		//// System.out.print(reverseBubbleSortOneMillion());
+		// System.out.println();
+		// System.out.print("Selection");
+		// System.out.print(randomSelectionSortThousand());
+		// System.out.print(reverseSelectionSortThousand());
+		// System.out.print(randomSelectionSortTenThousand());
+		// System.out.print(reverseSelectionSortTenThousand());
+		//// System.out.print(randomSelectionSortOneMillion());
+		//// System.out.print(reverseSelectionSortOneMillion());
+		//
+		// System.out.println();
+		// System.out.print("Insertion");
+		// System.out.print(randomInsertionSortThousand());
+		// System.out.print(reverseInsertionSortThousand());
+		// System.out.print(randomInsertionSortTenThousand());
+		// System.out.print(reverseInsertionSortTenThousand());
+		//// System.out.print(randomInsertionSortOneMillion());
+		//// System.out.print(reverseInsertionSortOneMillion());
+		// System.out.println();
+		// System.out.print("Merge");
+		// System.out.print(randomMergeSortThousand());
+		// System.out.print(reverseMergeSortThousand());
+		// System.out.print(randomMergeSortTenThousand());
+		// System.out.print(reverseMergeSortTenThousand());
+		//// System.out.print(randomMergeSortOneMillion());
+		//// System.out.print(reverseMergeSortOneMillion());
+		//
+		// System.out.println();
+		// System.out.print("Quick1");
+		// System.out.print(randomQuick1SortThousand());
+		// System.out.print(reverseQuick1SortThousand());
+		// System.out.print(randomQuick1SortTenThousand());
+		// System.out.print(reverseQuick1SortTenThousand());
+		//// System.out.print(randomQuick1SortOneMillion());
+		//// System.out.print(reverseQuick1SortOneMillion());
+		// System.out.println();
+		// System.out.print("Quick2");
+		// System.out.print(randomQuick2SortThousand());
+		// System.out.print(reverseQuick2SortThousand());
+		// System.out.print(randomQuick2SortTenThousand());
+		// System.out.print(reverseQuick2SortTenThousand());
+		//// System.out.print(randomQuick2SortOneMillion());
+		//// System.out.print(reverseQuick2SortOneMillion());
+		//
+		// System.out.println();
+		// System.out.print("Quick3");
+		// System.out.print(randomQuick3SortThousand());
+		// System.out.print(reverseQuick3SortThousand());
+		// System.out.print(randomQuick3SortTenThousand());
+		// System.out.print(reverseQuick3SortTenThousand());
+		//// System.out.print(randomQuick3SortOneMillion());
+		//// System.out.print(reverseQuick3SortOneMillion());
+		System.out.println(randomStandardSortThousand());
 
-		System.out.print(randomBubbleSortThousand());
-		System.out.print(reverseBubbleSortThousand());
-		System.out.print(randomBubbleSortTenThousand());
-		System.out.print(reverseBubbleSortTenThousand());
-//		System.out.print(randomBubbleSortOneMillion());
-//		System.out.print(reverseBubbleSortOneMillion());
-System.out.println();
-		System.out.print("Selection");
-		System.out.print(randomSelectionSortThousand());
-		System.out.print(reverseSelectionSortThousand());
-		System.out.print(randomSelectionSortTenThousand());
-		System.out.print(reverseSelectionSortTenThousand());
-//		System.out.print(randomSelectionSortOneMillion());
-//		System.out.print(reverseSelectionSortOneMillion());
-		
-		System.out.println();
-		System.out.print("Insertion");
-		System.out.print(randomInsertionSortThousand());
-		System.out.print(reverseInsertionSortThousand());
-		System.out.print(randomInsertionSortTenThousand());
-		System.out.print(reverseInsertionSortTenThousand());
-//		System.out.print(randomInsertionSortOneMillion());
-//		System.out.print(reverseInsertionSortOneMillion());
-System.out.println();
-		System.out.print("Merge");
-		System.out.print(randomMergeSortThousand());
-		System.out.print(reverseMergeSortThousand());
-		System.out.print(randomMergeSortTenThousand());
-		System.out.print(reverseMergeSortTenThousand());
-//		System.out.print(randomMergeSortOneMillion());
-//		System.out.print(reverseMergeSortOneMillion());
-		
-		System.out.println();
-		System.out.print("Quick1");
-		System.out.print(randomQuick1SortThousand());
-		System.out.print(reverseQuick1SortThousand());
-		System.out.print(randomQuick1SortTenThousand());
-		System.out.print(reverseQuick1SortTenThousand());
-//		System.out.print(randomQuick1SortOneMillion());
-//		System.out.print(reverseQuick1SortOneMillion());
-System.out.println();
-		System.out.print("Quick2");
-		System.out.print(randomQuick2SortThousand());
-		System.out.print(reverseQuick2SortThousand());
-		System.out.print(randomQuick2SortTenThousand());
-		System.out.print(reverseQuick2SortTenThousand());
-//		System.out.print(randomQuick2SortOneMillion());
-//		System.out.print(reverseQuick2SortOneMillion());
+	}
 
-		System.out.println();
-		System.out.print("Quick3");
-		System.out.print(randomQuick3SortThousand());
-		System.out.print(reverseQuick3SortThousand());
-		System.out.print(randomQuick3SortTenThousand());
-		System.out.print(reverseQuick3SortTenThousand());
-//		System.out.print(randomQuick3SortOneMillion());
-//		System.out.print(reverseQuick3SortOneMillion());
+	private String randomStandardSortThousand() {
+		int[] arr = new int[numberArr[0]];
+		long start = System.currentTimeMillis();
+		randomNumber(arr, arr.length);
+		for (int i = 0; i < arr.length; i++) 
+			arrList.add(arr[i]);
+		arrList.sort(null);
+		long end = System.currentTimeMillis();
+		return " " + ((end - start) / 1000.0) + " ";
+	}
 
-		
-		
+	private String randomMaxHeapSortThousand() {
+		int[] arr = new int[numberArr[0]];
+		// for (int a = 0; a < arr.length; a++)
+		// arr[a] = a;
+		long start = System.currentTimeMillis();
+		randomNumber(arr, arr.length);
+		sort(arr);
+		long end = System.currentTimeMillis();
+		return " " + ((end - start) / 1000.0) + " ";
+		// for (int i = 0; i < arr.length; i++)
+		// System.out.println(arr[i]);
 	}
 
 	private String randomBubbleSortThousand() {
@@ -612,8 +638,8 @@ System.out.println();
 
 	private int partition3(int[] array, int start, int end) {
 		Random rand = new Random();
-		int randomIndex = rand.nextInt((end+1)-start);
-		randomIndex+=start;
+		int randomIndex = rand.nextInt((end + 1) - start);
+		randomIndex += start;
 		int pivotPointer = end;
 		int i = -1;
 		int j = 0;
@@ -630,6 +656,49 @@ System.out.println();
 			swap(array, j, i);
 		}
 		return i;
+	}
+
+	public void sort(int arr[]) {
+		int n = arr.length;
+
+		// Build heap (rearrange array)
+		for (int i = n / 2 - 1; i >= 0; i--)
+			heapify(arr, n, i);
+
+		// One by one extract an element from heap
+		for (int i = n - 1; i >= 0; i--) {
+			// Move current root to end
+			int temp = arr[0];
+			arr[0] = arr[i];
+			arr[i] = temp;
+
+			// call max heapify on the reduced heap
+			heapify(arr, i, 0);
+		}
+	}
+
+	// To heapify a subtree rooted with node i which is
+	// an index in arr[]. n is size of heap
+	void heapify(int arr[], int n, int i) {
+		int largest = i; // Initialize largest as root
+		int l = 2 * i + 1; // left = 2*i + 1
+		int r = 2 * i + 2; // right = 2*i + 2
+
+		// If left child is larger than root
+		if (l < n && arr[l] > arr[largest])
+			largest = l;
+
+		// If right child is larger than largest so far
+		if (r < n && arr[r] > arr[largest])
+			largest = r;
+
+		// If largest is not root
+		if (largest != i) {
+			swap(arr, i, largest);
+
+			// Recursively heapify the affected sub-tree
+			heapify(arr, n, largest);
+		}
 	}
 
 }
