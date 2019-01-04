@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c10540-c1a7-4869-83aa-220c727cbb52" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_11718.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_2920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_1000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_10809.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_2438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_2675.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_2739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon_Algo/no_2742.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaekJoon_Algo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoon_Algo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaekJoon_Algo/no_2557.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaekJoon_Algo/test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/no_2557.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/no_2920.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/no_2920.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/코딩/bin/" />
@@ -23,20 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="no_2920.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2920.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="27" column="37" selection-start-line="20" selection-start-column="1" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,13 +63,19 @@
         <option value="$PROJECT_DIR$/BaekJoon_Algo/no_10172.java" />
         <option value="$PROJECT_DIR$/BaekJoon_Algo/no_10718.java" />
         <option value="$PROJECT_DIR$/BaekJoon_Algo/no_11718.java" />
-        <option value="$PROJECT_DIR$/BaekJoon_Algo/Main.java" />
         <option value="$PROJECT_DIR$/BaekJoon_Algo/no_2920.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/no_10809.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/no_2675.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/no_1000.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/no_2742.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/no_2739.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/no_2438.java" />
+        <option value="$PROJECT_DIR$/BaekJoon_Algo/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="962" />
     <option name="width" value="965" />
     <option name="height" value="1046" />
   </component>
@@ -85,27 +86,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm_Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Study" type="462c0819:PsiDirectoryNode" />
-              <item name="BaekJoon_Algo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
@@ -209,21 +190,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="965" height="1046" extended-state="0" />
+    <frame x="962" y="0" width="965" height="1046" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3295099" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2581665" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1938883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -236,58 +218,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32967034" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2577.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_1463.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/unsolved1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/solved.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/solved2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -552,17 +488,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/Main.java">
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2920.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="525">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2920.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="2896" column="18" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_10809.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2675.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_1000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2742.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2739.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/no_2438.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="27" column="37" selection-start-line="20" selection-start-column="1" selection-end-line="37" selection-end-column="35" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon_Algo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
